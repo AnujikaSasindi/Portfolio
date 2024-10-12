@@ -105,6 +105,10 @@ body {
     color: greenyellow;
     z-index: 1;
     display: inline-block;
+    min-height: 38px;
+    line-height: 32px; 
+    overflow: hidden; 
+    white-space: nowrap;
 }
 
 .home-content h3::before {
@@ -809,6 +813,7 @@ button[type="submit"]:hover {
 .typing-cursor {
     display: inline-block;
     width: 10px; /* Width of the cursor */
+    height: 32px;
     background-color: black; /* Cursor color */
     animation: blink 0.7s infinite;
 }
