@@ -104,6 +104,7 @@ body {
     font-weight: 700;
     color: greenyellow;
     z-index: 1;
+    display: inline-block;
 }
 
 .home-content h3::before {
@@ -187,6 +188,7 @@ body {
 .btn-box a:nth-child(2) {
     background: transparent;
     color: greenyellow;
+    font-weight: 600;
 }
 
 .btn-box a:nth-child(2):hover {
@@ -499,7 +501,7 @@ section {
     border-radius: 5px;
     border: 1px solid greenyellow;
     text-decoration: none;
-    color: greenyellow;
+    color: black;
 }
 
 .seemore:hover {
@@ -803,5 +805,21 @@ button[type="submit"]:hover {
 }
   
 
+
+.typing-cursor {
+    display: inline-block;
+    width: 10px; /* Width of the cursor */
+    background-color: black; /* Cursor color */
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        background-color: transparent; /* Cursor off */
+    }
+    50% {
+        background-color: black; /* Cursor on */
+    }
+}
 
   
